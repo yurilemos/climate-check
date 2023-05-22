@@ -9,4 +9,7 @@ export const HomeContent = styled.div`
   margin: auto;
   margin-top: 1rem;
   max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 `;
