@@ -8,8 +8,8 @@ export const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/climate-check/" element={<Home />} />
+        <Route path="/climate-check/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

@@ -6,7 +6,7 @@ export const NotFound = () => {
 const navigate = useNavigate();
   return (
     <div>Rota inválida
-      <button onClick={()=>{navigate('/')}}>voltar</button>
+      <button onClick={()=>{navigate('/climate-check/')}}>voltar</button>
     </div>
   );
 };
